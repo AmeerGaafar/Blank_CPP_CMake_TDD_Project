@@ -1,0 +1,19 @@
+
+## Execute the following in project directory to install google test:
+git clone https://github.com/google/googletest.git
+
+## To work in clion:
+Open project in clion then add run configuration for each target (main & test)
+
+
+## To work in command line:
+1- install cmake and toolchain
+
+2- from project folder execute once:
+cmake -Bbuild -H.
+
+3-to build all targets. Targets will be placed in build directory 
+cmake --build build --target all
+
+4- to build a single target:
+cmake --build build --target <<TargetName>>
