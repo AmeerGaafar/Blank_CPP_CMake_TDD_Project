@@ -3,7 +3,7 @@ This is a good C++ starting point for TDD and refactoring Katas. Requires CMake 
 
 ### To Use:
 - Clone this repo somewhere
-- Edit CMakeLists.txt and change `TargetName` into something meaningful
+- Edit CMakeLists.txt and change `<<TargetName>>` into something meaningful
 - Probably change directory name as well
 - Maybe delete .git directory to detach from github
 - Clone google test in project directory
@@ -16,7 +16,13 @@ That should be enough to use project in CLion or or the shell.
 
 Execute the following in project directory to install google test:
 - Open project in CLion (Select directory then open)
-- Create two configurations, one that targets `TargetName` and the other `TargetName_Test`
+- Create two `Run Configurations` as follows:
+  - Main Target: runs your `main` production code
+    blah
+    blah
+  - Test Target: runs your unit tests
+    blah
+    blah
 
 ## To Use the Shell
 - Make sure cmake and toolchain are installed
