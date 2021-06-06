@@ -2,11 +2,11 @@
 This is a good C++ starting point for TDD and refactoring Katas. Requires CMake and toolchain (gcc, MingW, etc..) to be installed.
 
 ### To Use:
-1- Clone this repo somewhere
-2- Edit CMakeLists.txt and change `TargetName` into something meaningfull
-3- Probably change directory name as well
-4- Maybe delete .git directory to detach from github
-5- Clone google test in project directory
+- Clone this repo somewhere
+- Edit CMakeLists.txt and change `TargetName` into something meaningfull
+- Probably change directory name as well
+- Maybe delete .git directory to detach from github
+- Clone google test in project directory
 ```
 git clone https://github.com/google/googletest.git
 ```
